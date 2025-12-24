@@ -1,0 +1,38 @@
+# Node modules (will be installed in container)
+node_modules/
+npm-debug.log*
+
+# Build output (will be built in container)
+dist/
+
+# Tests
+tests/
+*.test.ts
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env.local
+.env.*.local
+
+# Documentation (keeping README.md for reference)
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Other
+coverage/
+.nyc_output/
